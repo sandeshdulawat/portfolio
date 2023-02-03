@@ -5,21 +5,27 @@
 }
 body{
     text-align: center;
-    margin: 5%;
-    padding: 1%;
-    background-color: rgb(250, 236, 220);
+    background-color: #fff9f2;
 }
-h1{
-    background-color: rgb(247, 179, 156);
-    display: inline;
-    padding: 0% 25px;
-    border-radius: 30px;
+h3{
+    padding-bottom: 20px;
+}
+.heading{
+    padding-top: 40px ;
+    background: linear-gradient(to left, #52abf9 , #024f92);
+    color: white;
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: center;
+    align-items: center;
 }
 .name-intro{
-    margin-top: 5%;
-    padding-top: 1%;
-    background-color: rgb(250, 219, 224);
-    border-radius: 8%;
+    display: inline-block;
+    margin-top: 100px;
+    padding: 8px 180px;
+    background: linear-gradient( #fff9f2 , #fbefe2);
+    border-radius: 6px;
 }
 .name-intro-2{
     padding: 1%;
@@ -37,7 +43,6 @@ div{
     padding: 15px;
 }
 button {
-	/* box-shadow:inset 0px 1px 0px 0px #fce2c1; */
 	background-color:rgb(250, 219, 224);;
 	border-radius:11px;
 	border:2px solid #a87dfe;
@@ -45,7 +50,7 @@ button {
 	cursor:pointer;
 	color:#000000;
 	font-family:Arial;
-	font-size:13px;
+	font-size:15px;
 	font-weight:bold;
 	padding:8px 18px;
 	text-decoration:none;
@@ -58,6 +63,20 @@ button:active {
 	position:relative;
 	top:1px;
 }
-h3{
-    padding: 10px;
+.first-btn-sec{
+    display: inline-block;
+    background: #fff4e7;
+    padding: 50px 200px;
+    border-radius: 20px;
+}
+.second-btn-sec{
+    display: block;
+    padding: 50px 200px;
+    border-radius: 20px;
+}
+.third-btn-sec{
+    display: inline-block;
+    background: #fff4e7;
+    padding: 50px 200px;
+    border-radius: 20px;
 }
